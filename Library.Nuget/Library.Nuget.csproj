@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <PackageId>Libraries.Nuget</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.2.1</Version>
     <Authors>Ravi Rajput</Authors>
     <Description>Test project for Nuget and CI/CD</Description>
     <IsPackable>true</IsPackable>
