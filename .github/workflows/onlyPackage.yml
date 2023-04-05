@@ -19,4 +19,4 @@ jobs:
           NUGET_AUTH_TOKEN: ${{ secrets.AZURE_DEVOPS_TOKEN }} 
       # Publish the package to Azure Artifacts
       - name: 'dotnet publish'
-        run: dotnet nuget push --api-key AzureArtifacts -s Library.Nuget/*.nupkg
+        run: dotnet nuget push --api-key AzureArtifacts -s Library.Nuget/myWebApp.1.0.0.nupkg
